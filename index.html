@@ -24,7 +24,12 @@
     appId: "1:848632844502:web:41fd792fa0f8d5ac6d3977",
     measurementId: "G-JKCQ0YZ47B"
   };
-rules_version = '2';
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+  <script>
+  rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -33,12 +38,9 @@ service cloud.firestore {
     }
   }
 }
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
   <!-- Do not Edit: server, Analytics -->
   <!-- Google tag (gtag.js) -->
+      </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TCB62CKLX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
