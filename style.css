@@ -16,3 +16,13 @@ h1 {
   text-align: center;
   font-family: "Madimi One", sans-serif;
 }
+
+.startb {
+  transition-duration: 0.4s;
+  
+}
+
+.startb:hover {
+  background-color: #16a9e9; /* Green */
+  color: white;
+}
