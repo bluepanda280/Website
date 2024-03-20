@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+title: "[READ FIRST]"
+labels: documentation
+assignees: bluepanda280
 
 ---
 
@@ -36,3 +36,6 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+**Read Before Submitting**
+Check if The Issue Already Exists!
