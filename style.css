@@ -21,7 +21,10 @@ h1 {
 }
 
 .button {
+  align: center;
   transition-duration: 0.4s;
+  background-color: #ffffff; /* White */
+  border-color: #04AA6D;
 }
 
 .button:hover {
