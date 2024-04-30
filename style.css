@@ -26,3 +26,12 @@ h1 {
   background-color: #16a9e9; /* Green */
   color: white;
 }
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
