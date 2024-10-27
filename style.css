@@ -1,7 +1,16 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 h1 {
   text-align: center;
-  font-family: lexend
+  font-family: "Lexend", sans-serif;
 
 .startb {
   transition-duration: 0.4s;
